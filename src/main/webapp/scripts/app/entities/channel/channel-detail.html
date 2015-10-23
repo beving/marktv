@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="marktvApp.channel.detail.title">Channel</span> {{channel.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="marktvApp.channel.number">Number</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{channel.number}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="marktvApp.channel.call_sign">Call_sign</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{channel.call_sign}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="marktvApp.channel.frequency">Frequency</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{channel.frequency}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="marktvApp.channel.icon">Icon</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{channel.icon}}</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

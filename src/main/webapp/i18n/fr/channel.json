@@ -1,0 +1,22 @@
+{
+    "marktvApp": {
+        "channel" : {
+            "home": {
+                "title": "Channels",
+                "createLabel": "Créer un nouveau Channel",
+                "createOrEditLabel": "Créer ou éditer un Channel"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Channel {{ id }} ?"
+            },
+            "detail": {
+                "title": "Channel"
+            },
+            "number": "Number",
+            "call_sign": "Call_sign",
+            "frequency": "Frequency",
+            "icon": "Icon"
+        }
+    }
+}
+
