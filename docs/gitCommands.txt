@@ -1,0 +1,10 @@
+git push --force origin master
+
+git commit
+
+git status
+
+
+git add
+
+git clone
